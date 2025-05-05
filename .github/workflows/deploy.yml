@@ -26,4 +26,4 @@ jobs:
       - run: railway up --service nuevorail
         name: Deploy to Railway
         env:
-          RAILWAY_TOKEN: ${{ secrets.Nuevorail}}  railway up
+          RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN}}  railway up
